@@ -8,5 +8,6 @@ public class ProductController {
     @GetMapping("/product")
     public String hello() {
         return "product feature!";
+        return "商品機能!";
     }
 }
