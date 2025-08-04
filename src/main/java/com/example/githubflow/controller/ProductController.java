@@ -1,0 +1,13 @@
+package main.java.com.example.githubflow.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ProductController {
+    @GetMapping("/product")
+    public String hello() {
+        return "product feature!";
+        return "商品機能!";
+    }
+}
