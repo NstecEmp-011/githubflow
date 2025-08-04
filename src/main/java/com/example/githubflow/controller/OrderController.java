@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class OrderController {
     @GetMapping("/order")
-    public String hello() {return "order feature!";
+    public String hello() {
+        return "注文機能!";
 }
 }
